@@ -1,16 +1,42 @@
-# React + Vite
+#  Weather Now
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple, user-friendly weather web application built using React and the Open-Meteo API.  
+It allows users to quickly check current weather conditions for any city around the world.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+##  Project Overview
 
-## React Compiler
+User Persona: Jamie – an outdoor enthusiast who wants to quickly know the current weather before planning activities.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Goal: 
+To build an easy-to-use web app that fetches and displays weather details such as temperature, wind speed, and weather condition.
 
-## Expanding the ESLint configuration
+##  Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+  Frontend Framework: React  
+  Styling: Tailwind CSS  
+  API Used: [Open-Meteo API](https://open-meteo.com/en/docs)  
+  State Management: React useState and useEffect  
+
+
+##  Features
+
+ Search weather by city name  
+ Fetches real-time data from Open-Meteo API  
+ Displays temperature, windspeed, and condition  
+ Responsive and mobile-friendly layout  
+ Error handling for invalid city names  
+
+## How It Works
+
+1. User enters a city name in the search bar.  
+2. The app fetches the city’s latitude & longitude using Open-Meteo’s Geocoding API.  
+3. It then calls the Weather API to get current weather details.  
+4. The weather data is displayed in a clean, card-style layout.  
+
+
+##  Setup and Run Locally
+
+1. Clone the repository:
+  
+   git clone https://github.com/Swathi2911/weather-now.git

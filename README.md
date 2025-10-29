@@ -40,3 +40,18 @@ To build an easy-to-use web app that fetches and displays weather details such a
 1. Clone the repository:
   
    git clone https://github.com/Swathi2911/weather-now.git
+
+##  Install dependencies
+npm install
+
+## Start the development server
+npm run dev
+
+
+Your app will run at 👉 http://localhost:5173
+
+## APIs Used
+
+ Open-Meteo Weather Forecast API
+
+ Open-Meteo Geocoding API
